@@ -1,5 +1,12 @@
-var mymodule = angular.module("ht", []);
+var module=angular.module("ht",[]);
 
-mymodule.controller("mycontroller", function ($scope) {
-    alert("Hello Queen");
+mymodule.controller("mycontroller",function($scope){
+$scope.city=["Delhi","Mumbai"];
+
+// Json format
+$scope.detail=[
+    {
+        "Name":"Tanzeela",
+    }
+];
 });
